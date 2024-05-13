@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Seguidores</title>
+</head>
+<body>
+    <h1>
+        CONFIGURE O ROBÔ
+    </h1>
+    <form action="/seguir" method="post">
+        <label for="Login">
+            Login Instagram
+        </label><br>
+        <input type="text" name="login" id="Login" ><br>
+
+        <label for="Senha">
+            Senha Instagram
+        </label><br>
+        <input type="password" name="senha" id="Senha"><br>
+
+        <label for="url">
+            Url
+        </label><br>
+        <input type="url" name="pagina" id="url"><br>
+
+        <label for="Quantidade">
+            Quantidade a seguir
+        </label><br>
+        <input type="text" name="quantidade" id="Quantidade"><br>
+
+        <input type="submit" value="Enviar"><br>
+    </form>
+</body>
+</html>
