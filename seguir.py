@@ -16,7 +16,10 @@ def seguir():
         quantidade = int(request.form['quantidade'])
 
         # Inicialização do navegador
-        navegador = webdriver.Chrome()
+        options = webdriver.ChromeOptions()
+        options.add_argument('--headless=new')
+
+        navegador = webdriver.Chrome(options=options)
         navegador.get('https://www.instagram.com')
 
         # Preencher login e senha
