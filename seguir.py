@@ -75,7 +75,7 @@ def seguir():
                     print('\033[1;31m Elemento não encontrado')
                     time.sleep(5)
                     # seguir = navegador.find_element(By.XPATH,'/html/body/div[6]/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[3]')
-                    seguir = navegador.find_element(By.CLASS_NAME,'_aano')
+                    seguir = navegador.find_element(By.XPATH,'//div[@class="xyi19xy x1ccrb07 xtf3nb5 x1pc53ja x1lliihq x1iyjqo2 xs83m0k xz65tgg x1rife3k x1n2onr6"]')
                     navegador.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight",seguir)
                     time.sleep(1)
         
