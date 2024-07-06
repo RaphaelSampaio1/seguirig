@@ -1,13 +1,14 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #000000;
+    background-image:linear-gradient(to right,black
+    ,blue);
     margin: 0;
     padding: 0;
 }
 
 h1 {
     text-align: center;
-    color: #21da09;
+    color: #ffffff;
     margin-top: 50px;
 }
 
@@ -48,5 +49,5 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-image: linear-gradient(to right,darkblue,rgb(5, 38, 223));
 }
